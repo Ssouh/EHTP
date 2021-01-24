@@ -1,0 +1,2 @@
+1GI/* filter=lfs diff=lfs merge=lfs -text
+1GI/ filter=lfs diff=lfs merge=lfs -text

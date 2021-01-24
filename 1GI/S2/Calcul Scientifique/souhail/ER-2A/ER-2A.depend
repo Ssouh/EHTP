@@ -1,0 +1,34 @@
+# depslib dependency file v1.0
+1552206547 source:d:\gi\s2\calcul scientifique\souhail\er-2a\disjikstra.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1552042453 source:d:\gi\s2\calcul scientifique\souhail\er-2a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1551011838 source:c:\users\safi-\desktop\sa\er-2a\disjikstra.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1550953716 source:c:\users\safi-\desktop\sa\er-2a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+
+1551055430 source:c:\users\safi-\desktop\er-2a\disjikstra.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1551054380 source:c:\users\safi-\desktop\er-2a\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+

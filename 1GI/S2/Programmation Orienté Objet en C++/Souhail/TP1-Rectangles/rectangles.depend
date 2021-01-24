@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1553121183 source:d:\gi\s2\programmation orienté objet en c++\souhail\rectangles\main.cpp
+	<iostream>
+	"point.h"
+	"Unrectangle.h"
+
+1553119752 d:\gi\s2\programmation orienté objet en c++\souhail\rectangles\include\point.h
+
+1553121421 d:\gi\s2\programmation orienté objet en c++\souhail\rectangles\include\unrectangle.h
+	"point.h"
+
+1553119723 source:d:\gi\s2\programmation orienté objet en c++\souhail\rectangles\src\point.cpp
+	<iostream>
+	"point.h"
+
+1553121315 source:d:\gi\s2\programmation orienté objet en c++\souhail\rectangles\src\unrectangle.cpp
+	<iostream>
+	"Unrectangle.h"
+	"point.h"
+

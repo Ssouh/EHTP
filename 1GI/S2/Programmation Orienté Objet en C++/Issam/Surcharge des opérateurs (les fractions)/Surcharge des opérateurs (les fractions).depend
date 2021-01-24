@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1521891364 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\surcharge des opérateurs (les fractions)\main.cpp
+	<iostream>
+	"UnRationnel.h"
+
+1521890183 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\surcharge des opérateurs (les fractions)\include\unrationnel.h
+	<ostream>
+
+1521890458 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\surcharge des opérateurs (les fractions)\src\unrationnel.cpp
+	"UnRationnel.h"
+	<iostream>
+	<ostream>
+

@@ -1,0 +1,25 @@
+Bonjour,
+
+Voici quelques remarques à suivre:
+
+1) Motivation et Introduction: Commencer par faire un historique de l'équation en question, pourquoi c'est intéressant sa résolution ? et pourquoi faire du numérique pour cette équation ?
+2) Partie théorique: Faire une étude théorique de cette équation pour le cas de la dimension 1, ensuite voir si la démonstration peut se généraliser pour des dimensions supérieures. 
+3) Partie numérique: dans cette partie, il faut approcher l'équation en question, et faire la simulation numérique de sa solution. [commencer toujours par le cas de la dimension 1 après voir les dimensions supérieures.]
+4) Enfin, comparer entre les résultats théoriques et les résultats numériques que vous avez trouvé et dresser la liste des questions ouvertes non résolues si elles existent [Perspectives].
+5) Une bibliographie est toujours utile dans un rapport.
+
+Structure d'un rapport:
+
+Un rapport se compose classiquement, d':
+
+un titre attractif, bien choisi, qui incite les gens à découvrir le contenu de votre projet.
+
+une introduction [vous expliquer dans cette partie votre motivation à étudier cette équation e t non pas une autre], dans cette partie aussi vous posez clairement la problématique que vous allez traiter.
+
+un développement, comportant les parties 2) et 3) ci dessus
+
+et d'une conclusion et perspectives, c'est la partie 4). 
+
+Eviter de copier et coller aveuglement du net, vous risquez d'enterrer votre effort et de cacher la compétence que chacun d'entre vous possède.
+
+Bon courage

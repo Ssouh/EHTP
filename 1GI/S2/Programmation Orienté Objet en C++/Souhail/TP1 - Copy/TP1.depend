@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1553112394 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp1\main.cpp
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"class.h"
+
+1551954380 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp1\src\class.cpp
+	"class.h"
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1551955748 d:\gi\s2\programmation orienté objet en c++\souhail\tp1\include\class.h
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+

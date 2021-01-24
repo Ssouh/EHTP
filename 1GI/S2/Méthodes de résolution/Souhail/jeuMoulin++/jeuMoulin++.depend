@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1553348638 source:c:\users\safi-\desktop\méthodes de résolution\souhail\jeumoulin++\table.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<ctime>
+	<time.h>
+	"Fonction.h"
+
+1553347129 c:\users\safi-\desktop\méthodes de résolution\souhail\jeumoulin++\fonction.h
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
+1553346541 source:c:\users\safi-\desktop\méthodes de résolution\souhail\jeumoulin++\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	"Fonction.h"
+
+1556551337 source:d:\gi\s2\méthodes de résolution\souhail\jeumoulin++\main.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+	"Fonction.h"
+
+1556624776 d:\gi\s2\méthodes de résolution\souhail\jeumoulin++\fonction.h
+	<vector>
+	<conio.h>
+	<iostream>
+	"noeud.h"
+
+1556624776 source:d:\gi\s2\méthodes de résolution\souhail\jeumoulin++\table.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<conio.h>
+	<vector>
+	"Fonction.h"
+
+1556519056 source:d:\gi\s2\méthodes de résolution\souhail\jeumoulin++\regles.cpp
+
+1556619164 source:d:\gi\s2\méthodes de résolution\souhail\jeumoulin++\ai.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	<string.h>
+	<vector>
+	"Fonction.h"
+	"noeud.h"
+
+1556622149 d:\gi\s2\méthodes de résolution\souhail\jeumoulin++\include\noeud.h
+	<vector>
+	<iostream>
+
+1556630719 source:d:\gi\s2\méthodes de résolution\souhail\jeumoulin++\src\noeud.cpp
+	"../Fonction.h"
+

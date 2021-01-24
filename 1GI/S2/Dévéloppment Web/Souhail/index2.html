@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+      
+    </style>
+</head>
+<body>
+    <button onclick="makeTable()">Tableau</button>
+    <div id="out"></div>
+    <div id="gabari_carte"></div>
+    <div id="gabari_ligne" style="display: none">
+        <table>
+            <tr>
+                <td class="n">toto</td>
+                <td class="p">momo</td>
+            </tr>
+        </table>
+    </div>
+
+    <script>
+        function makeTable() {
+            var table = "<table class='table' border='1' width='100%'>";
+            table += "<tr><th>Nom</th><th>Prénom</th></tr>";
+            table += "</table>";
+            var out = document.querySelector('#out')
+            out.innerHTML = table;
+            var tblBody = document.querySelector('#out table tbody');
+            var copy = document.querySelector("#gabari_ligne tr").cloneNode(true)
+            copy.querySelector('td.n').innerText = 'Fifi'
+            copy.querySelector('td.p').innerText = 'Lolo'
+            tblBody.appendChild(copy);
+           
+        }
+    </script>
+</body>
+</html>

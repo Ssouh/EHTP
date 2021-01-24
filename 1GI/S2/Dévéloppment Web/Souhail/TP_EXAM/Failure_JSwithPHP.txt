@@ -1,0 +1,34 @@
+
+<!-- <div id="out"> <button onclick="affichageTable()">afficher</button>   </div> -->
+
+<!-- <script>
+        
+        function maketable(){
+            var table= "<table class='mobile,tablet,desktop' border='4' cellpadding='8' cellspacing='3' ><br>"
+            for (i=0; i<$s->rowCount() ;i++)
+            {   table+="<td><img class='' src="+$s->photo+"alt='erreur'>"
+                table+="<h1>"+$s->Désignation+"<\h1><br><p><strike>"+$s->prixNormal+"$</strike>   "+$s->prixPromo+"$   "+$s-Reference+"<\p>";
+                table+="</td>"
+            }table+="</table><br>"
+            return table
+        }
+        function affichageTable(){
+           document.querySelector('#out').innerHTML = maketable()
+        }
+
+    </script> -->
+    <table class='mobile,tablet,desktop' border='4' cellpadding='8' cellspacing='3' ><br>
+
+    <?php
+    //while ($Res=$s->fetch(PDO::FETCH_OBJ)){
+    ?>
+    <td><img class='' src="$s->photo" alt='erreur'>
+    <h1><?php echo $s->Désignation;?></h1><br>
+    <h5><strike><?php echo $s->prixNormal;?>$</strike> <?php echo $s->prixPromo;?>$ <?php echo $s->Reference;?></h5>;
+    </td>
+
+
+    <?php
+    }
+    ?>
+    </table><br>

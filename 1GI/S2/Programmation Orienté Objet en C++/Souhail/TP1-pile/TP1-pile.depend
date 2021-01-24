@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1553682881 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp1-pile\main.cpp
+	<iostream>
+	<stdlib.h>
+	<stdio.h>
+	"pile.h"
+
+1553682157 d:\gi\s2\programmation orienté objet en c++\souhail\tp1-pile\include\pile.h
+	<iostream>
+	<stdlib.h>
+	<string.h>
+

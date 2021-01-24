@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1557143440 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\main.cpp
+	<iostream>
+	"UnePiece.h"
+	"une_piece.h"
+	"UnePieceSimple.h"
+	"UnePieceComposite.h"
+	"une_piece_composee.h"
+
+1557127501 d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\include\unepiece.h
+
+1557138296 d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\include\unepiecesimple.h
+	"UnePiece.h"
+	"une_piece.h"
+
+1557127202 d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\include\unepiececomposite.h
+	"UnePiece.h"
+	"UnePieceSimple.h"
+
+1557133261 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\src\unepiece.cpp
+	"UnePiece.h"
+	<iostream>
+	<string.h>
+
+1557128116 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\src\unepiececomposite.cpp
+	"UnePieceComposite.h"
+	<iostream>
+
+1557127774 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\src\unepiecesimple.cpp
+	"UnePieceSimple.h"
+	<iostream>
+
+1557137272 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\src\une_piece.cpp
+	"une_piece.h"
+
+1557137248 d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\include\une_piece.h
+
+1557142707 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\src\une_piece_composee.cpp
+	"une_piece_composee.h"
+	<iostream>
+
+1557134902 d:\gi\s2\programmation orienté objet en c++\souhail\tp5_piece\include\une_piece_composee.h
+	"une_piece.h"
+

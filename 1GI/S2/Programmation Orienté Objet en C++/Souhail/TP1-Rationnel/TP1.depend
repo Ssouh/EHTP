@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1553202861 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp1\main.cpp
+	<iostream>
+	"class.h"
+
+1553202861 source:d:\gi\s2\programmation orienté objet en c++\souhail\tp1\src\class.cpp
+	"class.h"
+	<iostream>
+	<stdlib.h>
+	<string.h>
+
+1553122345 d:\gi\s2\programmation orienté objet en c++\souhail\tp1\include\class.h
+	<iostream>
+	<string.h>
+

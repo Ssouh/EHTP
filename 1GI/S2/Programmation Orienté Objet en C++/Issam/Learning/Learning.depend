@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1519252084 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\src\classy.cpp
+	"Classy.h"
+	<iostream>
+
+1519252241 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\include\classy.h
+
+1519252249 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\main.cpp
+	<iostream>
+	"Classy.h"
+

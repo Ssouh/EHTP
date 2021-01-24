@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1519380273 source:c:\users\hp\desktop\génie informatique\training\main.cpp
+	<iostream>
+	<stdlib.h>
+	"Point.h"
+	"Date.h"
+	"unEvenement.h"
+
+1519375918 c:\users\hp\desktop\génie informatique\training\include\point.h
+
+1519375918 source:c:\users\hp\desktop\génie informatique\training\src\point.cpp
+	"Point.h"
+	<iostream>
+	<math.h>
+
+1519380204 c:\users\hp\desktop\génie informatique\training\include\date.h
+
+1519378750 c:\users\hp\desktop\génie informatique\training\include\unevenement.h
+	"Date.h"
+
+1519380513 source:c:\users\hp\desktop\génie informatique\training\src\date.cpp
+	<iostream>
+	"Date.h"
+
+1519379948 source:c:\users\hp\desktop\génie informatique\training\src\unevenement.cpp
+	<iostream>
+	"unEvenement.h"
+

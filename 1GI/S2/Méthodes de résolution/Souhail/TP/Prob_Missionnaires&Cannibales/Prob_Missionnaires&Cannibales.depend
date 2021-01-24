@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1552517817 source:d:\gi\s2\méthodes de résolution\souhail\tp\prob_missionnaires&cannibales\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
