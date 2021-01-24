@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1521848798 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\surcharge des opérateurs (les chaines de caractères)\main.cpp
+	<iostream>
+	"UneChaine.h"
+
+1521848069 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\surcharge des opérateurs (les chaines de caractères)\include\unechaine.h
+	<ostream>
+
+1521849070 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\surcharge des opérateurs (les chaines de caractères)\src\unechaine.cpp
+	"UneChaine.h"
+	<iostream>
+	<string.h>
+	<ostream>
+

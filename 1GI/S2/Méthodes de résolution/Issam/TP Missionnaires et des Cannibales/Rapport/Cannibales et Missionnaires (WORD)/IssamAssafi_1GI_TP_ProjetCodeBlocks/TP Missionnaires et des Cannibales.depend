@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1520516787 source:c:\users\issam\desktop\génie informatique\s2\méthodes de résolution\tp missionnaires et des cannibales\fonctions.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fonctions.h"
+
+1520502717 c:\users\issam\desktop\génie informatique\s2\méthodes de résolution\tp missionnaires et des cannibales\fonctions.h
+
+1520513455 source:c:\users\issam\desktop\génie informatique\s2\méthodes de résolution\tp missionnaires et des cannibales\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"fonctions.h"
+

@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1520551338 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les ensembles\main.cpp
+	<iostream>
+	"UnEnsemble.h"
+
+1520551110 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les ensembles\include\unensemble.h
+
+1521827193 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les ensembles\src\unensemble.cpp
+	"UnEnsemble.h"
+	<iostream>
+

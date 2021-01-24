@@ -1,0 +1,43 @@
+# depslib dependency file v1.0
+1526296202 source:c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\main.cpp
+	<iostream>
+	"Database.h"
+	"Utilisateur.h"
+	"Livre.h"
+	"Employe.h"
+	<string.h>
+	<stdlib.h>
+	<conio.h>
+
+1525085493 source:c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\src\database.cpp
+	"Database.h"
+	<iostream>
+
+1525085450 c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\include\database.h
+	"Utilisateur.h"
+	"Livre.h"
+
+1525076975 c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\include\utilisateur.h
+
+1525078125 source:c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\src\utilisateur.cpp
+	"Utilisateur.h"
+	<string.h>
+	<iostream>
+
+1525688642 source:c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\src\livre.cpp
+	"Livre.h"
+	<string.h>
+	<iostream>
+
+1525688528 c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\include\livre.h
+
+1526294554 c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\include\employe.h
+
+1526296617 source:c:\users\issam\desktop\informatique\s2\génie logiciel\gestion de bibliothèque\src\employe.cpp
+	<iostream>
+	"Employe.h"
+	<stdlib.h>
+	<string.h>
+	<conio.h>
+	<stdio.h>
+

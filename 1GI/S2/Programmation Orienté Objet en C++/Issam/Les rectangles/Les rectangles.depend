@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1520546243 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les rectangles\main.cpp
+	<iostream>
+	"UnPoint.h"
+	"UnRectangle.h"
+
+1520545122 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les rectangles\include\unpoint.h
+
+1520546018 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les rectangles\include\unrectangle.h
+	"UnPoint.h"
+
+1520545672 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les rectangles\src\unpoint.cpp
+	<iostream>
+	"UnPoint.h"
+
+1520546173 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les rectangles\src\unrectangle.cpp
+	<iostream>
+	"UnRectangle.h"
+	"UnPoint.h"
+

@@ -1,0 +1,6 @@
+Des sites recommandés:
+- daaif.net
+- jquery.daaif.net
+- git.daaif.net
+- svg.daaif.net
+- es6.daaif.net

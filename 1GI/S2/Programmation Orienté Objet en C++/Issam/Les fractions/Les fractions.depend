@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1519952459 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les fractions\main.cpp
+	<iostream>
+	"UnRationnel.h"
+
+1519952802 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les fractions\include\unrationnel.h
+
+1519952811 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les fractions\src\unrationnel.cpp
+	<iostream>
+	"UnRationnel.h"
+
+1519952460 source:d:\gi\s2\programmation orienté objet en c++\issam\les fractions\main.cpp
+	<iostream>
+	"UnRationnel.h"
+
+1519952804 d:\gi\s2\programmation orienté objet en c++\issam\les fractions\include\unrationnel.h
+
+1551403134 source:d:\gi\s2\programmation orienté objet en c++\issam\les fractions\src\unrationnel.cpp
+	<iostream>
+	"UnRationnel.h"
+

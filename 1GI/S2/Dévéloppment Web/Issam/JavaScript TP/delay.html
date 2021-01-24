@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .box   {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            border-radius: 50%;
+            margin : 20px auto;
+            /*
+            border-radius: 0;
+            transition : border-radius 1s;
+            */
+        }
+        /*
+        .box:hover {
+            border-radius: 50%;
+            transition : border-radius 1s;
+        }
+        */
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<hr>
+<div id="out"></div>
+<!-- Script animation -->
+<script>
+    // AJouter l'événement à la box
+    var box = document.querySelector('.box');
+    var radius = 50;
+    var timerId;
+    /*
+    box.addEventListener('mouseover', function(){
+        console.log('Event mouse over..')
+        timerId = setInterval(anim, 40)
+    })
+    function anim() {
+        box.style.borderRadius = radius + '%';
+        radius += 2;
+        if(radius > 50)
+            clearInterval(timerId)
+        console.log('anim', radius)
+    }
+    */
+
+    box.addEventListener('mouseover', function(){
+        console.log('Event mouse over..')
+        anim()
+    })
+    function anim() {
+        box.style.borderRadius = radius + '%';
+        radius -= 2;
+        if(radius >= 0)
+            setTimeout(anim, 40)
+        console.log('anim', radius)
+    }
+</script>
+
+
+<!-- script horloge -->
+<script>
+    //setInterval(f, 1000)
+    console.log("Le code continue son exécution");
+
+    function f() {
+        console.log("La fonction a été appelée.")
+    }
+    var out = document.querySelector('#out')
+    setInterval(function(){
+        out.innerText = getHour();
+    }, 1000)
+
+    function getHour() {
+        var d = new Date();
+        var h = d.getHours();
+        var m = d.getMinutes();
+        var s = d.getSeconds();
+        h = h <= 9 ? '0' + h : h;
+        m = m <= 9 ? '0' + m : m;
+        s = s <= 9 ? '0' + s : s;
+        return h + ':' + m + ':' + s;
+    }
+</script>
+</body>
+</html>

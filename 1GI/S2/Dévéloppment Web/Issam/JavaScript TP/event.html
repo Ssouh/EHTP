@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Events</title>
+    <style>
+        .container, .container p {
+            border: 1Px solid gray;
+            padding: 10px;
+            margin: 16px;
+        }
+        .green {
+            color: green;
+            background: #FF7;
+        }
+
+    </style>
+</head>
+<body onclick="g()">
+<h2>Hello GI1</h2>
+<div class="container" >
+    <p >Lorem ipsum <a href="to.html" >My link</a></p>
+    <p>Lorem ipsum <a href="to.html">My link</a></p>
+    <p>Lorem ipsum <a href="to.html">My link</a></p>
+    <p>Lorem ipsum <a href="to.html">My link</a></p>
+</div>
+
+<script>
+    var container = document.querySelector('.container')
+    container.addEventListener('click', f)
+    function f(evt) {
+        if(evt.target.tagName === 'P') {
+            console.log('Vous avez liqué sur un paragraphe.')
+            evt.target.classList.toggle('green')
+        } else if(evt.target.tagName === 'A') {
+            evt.preventDefault()
+        }
+        else
+            console.log('Vous avez liqué sur la DIV.')
+        evt.stopPropagation()
+    }
+    function g(evt) {
+        evt.preventDefault()
+        console.log('function G called...')
+    }
+</script>
+</body>
+</html>

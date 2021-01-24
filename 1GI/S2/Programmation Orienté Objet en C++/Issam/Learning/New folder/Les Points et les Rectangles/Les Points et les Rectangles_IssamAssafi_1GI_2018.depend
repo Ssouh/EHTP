@@ -1,0 +1,95 @@
+# depslib dependency file v1.0
+1523740504 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\main.cpp
+	<conio.h>
+	<stdlib.h>
+	<iostream>
+	"Point.h"
+	"PointNomme.h"
+	"PointColore.h"
+	"Rectangle.h"
+	"RectangleColore.h"
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\include\point.h
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\include\pointnomme.h
+	"Point.h"
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\include\pointcolore.h
+	"PointNomme.h"
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\include\rectangle.h
+	"Point.h"
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\include\rectanglecolore.h
+	"Rectangle.h"
+
+1523654046 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\src\point.cpp
+	"Point.h"
+	<math.h>
+	<iostream>
+
+1523640339 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\src\pointcolore.cpp
+	"PointColore.h"
+	<iostream>
+
+1523640193 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\src\pointnomme.cpp
+	"PointNomme.h"
+	<iostream>
+	<string.h>
+
+1523655487 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\src\rectangle.cpp
+	<iostream>
+	<stdlib.h>
+	"Rectangle.h"
+
+1523653281 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\les points et les rectangles\src\rectanglecolore.cpp
+	"RectangleColore.h"
+	<iostream>
+
+1523654046 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\src\point.cpp
+	"Point.h"
+	<math.h>
+	<iostream>
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\include\point.h
+
+1523640339 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\src\pointcolore.cpp
+	"PointColore.h"
+	<iostream>
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\include\pointcolore.h
+	"PointNomme.h"
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\include\pointnomme.h
+	"Point.h"
+
+1523640193 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\src\pointnomme.cpp
+	"PointNomme.h"
+	<iostream>
+	<string.h>
+
+1523655487 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\src\rectangle.cpp
+	<iostream>
+	<stdlib.h>
+	"Rectangle.h"
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\include\rectangle.h
+	"Point.h"
+
+1523653281 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\src\rectanglecolore.cpp
+	"RectangleColore.h"
+	<iostream>
+
+1523740383 c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\include\rectanglecolore.h
+	"Rectangle.h"
+
+1523824669 source:c:\users\issam\desktop\génie informatique\s2\programmation orienté objet en c++\learning\new folder\les points et les rectangles\main.cpp
+	<conio.h>
+	<stdlib.h>
+	<iostream>
+	"Point.h"
+	"PointNomme.h"
+	"PointColore.h"
+	"Rectangle.h"
+	"RectangleColore.h"
+

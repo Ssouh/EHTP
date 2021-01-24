@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form validation</title>
+    <style>
+        .errors {
+            color: red;
+            font-weight: bold;
+        }
+        .error {
+            border: 1px solid red;
+            background: #F77;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <form action="a.phph" >
+        <div class="errors"></div>
+        <input type="text" name="nom" id="nom" placeholder="Nom"> <br>
+        <input type="text" name="email" id="email" placeholder="email"> <br>
+        <input type="text" name="pass" id="pass" placeholder="pass"> <br>
+        <button type="button" onclick="valider(this.form)">Envoyer</button>
+    </form>
+</div>
+
+<script>
+    function valider(frm) {
+        var errors = [];
+        var test = true;
+        if(document.querySelector('#nom').value.length==0) {
+            test = false;
+            errors.push({
+                elm : 'nom',
+                message : "Nom pas bien renseigné"
+            })
+        }
+        if(document.querySelector('#email').value.length==0) {
+            test = false;
+            errors.push({
+                elm : 'email',
+                message : "Email pas bien renseigné"
+            })
+        }
+        if(document.querySelector('#pass').value.length==0) {
+            test = false;
+            errors.push({
+                elm : 'pass',
+                message : "Password pas bien renseigné"
+            })
+        }
+        if(!test)
+            displayErrors(errors);
+        else
+            frm.submit()
+    }
+    function displayErrors(errors) {
+        document.querySelector('.errors').innerHTML =
+        errors.map(function(e, i){
+                document.querySelector('#' + e.elm).classList.add('error')
+                return '<div>' + e.message + '</div>';
+            }).join('\n')
+    }
+</script>
+</body>
+</html>

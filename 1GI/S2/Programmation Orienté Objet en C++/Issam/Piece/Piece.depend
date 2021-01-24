@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1525950499 source:c:\users\issam\desktop\informatique\s2\programmation orienté objet en c++\piece\main.cpp
+	<iostream>
+	"UnePiece.h"
+	"UnePieceSimple.h"
+	"UnePieceComposite.h"
+
+1524829079 source:c:\users\issam\desktop\informatique\s2\programmation orienté objet en c++\piece\src\unepiece.cpp
+	"UnePiece.h"
+	<string.h>
+
+1525949911 c:\users\issam\desktop\informatique\s2\programmation orienté objet en c++\piece\include\unepiece.h
+
+1525950697 source:c:\users\issam\desktop\informatique\s2\programmation orienté objet en c++\piece\src\unepiececomposite.cpp
+	"UnePieceComposite.h"
+	<iostream>
+
+1525944072 c:\users\issam\desktop\informatique\s2\programmation orienté objet en c++\piece\include\unepiececomposite.h
+	"UnePieceSimple.h"
+
+1525949857 c:\users\issam\desktop\informatique\s2\programmation orienté objet en c++\piece\include\unepiecesimple.h
+	"UnePiece.h"
+
+1525950229 source:c:\users\issam\desktop\informatique\s2\programmation orienté objet en c++\piece\src\unepiecesimple.cpp
+	"UnePieceSimple.h"
+	<iostream>
+

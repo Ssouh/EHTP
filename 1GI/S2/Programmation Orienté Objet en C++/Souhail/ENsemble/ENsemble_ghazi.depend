@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1555284489 source:d:\gi\s2\programmation orienté objet en c++\souhail\ensemble_ghazi\main.cpp
+	"Unensemble.h"
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<conio.h>
+
+1554663631 d:\gi\s2\programmation orienté objet en c++\souhail\ensemble_ghazi\include\unensemble.h
+
+1555284629 source:d:\gi\s2\programmation orienté objet en c++\souhail\ensemble_ghazi\src\unensemble.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"Unensemble.h"
+

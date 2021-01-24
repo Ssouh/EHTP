@@ -1,0 +1,536 @@
+RadASM 2.2.0.4 (10-12-2005)
+---------------------------
+
+Whats new since 2.0.0.0
+
+2.0.0.0
+- Got rid of richedit and uses my own edit control (RAEdit).
+-- Flicker free hiliting.
+-- Support for DBCS fonts.
+-- Epand / collapse procs.
+-- Line numbers.
+- Fixed prototype bug.
+2.0.0.1
+- Fixed a bug that could cause NT 4.0 to GPF
+- Added option for proc divider line.
+- Expand / collapse no longer goes to first line.
+2.0.0.2
+- Fixed a sniplet tool bug.
+- Fixed a proc argument parse bug.
+- Fixed a tools menu problem (spaces in filenames).
+2.0.0.3
+- Fixed a find and replace bug.
+- Made some speed optimalizations.
+- Added double click on splitterbar/button to close/open a split.
+2.0.0.4
+- Speed optimized painting in RAEdit.
+- Added option for flicker free drawing. Disabe if you have a paint speed problem.
+- Fixed a bug where code blocks was not marked on paste/undo.
+- Included X05's Version-Inc addin.
+2.0.0.5
+- Fixed a scrollbar bug in RAEdit.
+- Fixed a MDI restore bug in RadASM.
+- Added page break marker to selection bar in RAEdit. Page size can be set in Code Editor Options
+- Made changes to how bitmaps are added to toolbox buttons.
+- Made changes to dialog editor grid brush. Should now work on Win95 if set to 4x4
+2.0.0.6
+- Fixed a resource leak in RAEdit (Button bitmaps)
+- Fixed a few minor bugs in RAEdit (Replace selection in ovwrwrite mode, caret positioning in upper split window)
+- Added Shift+Delete (Cut)
+- Added Ctrl+Delete (Extend selection to end of word and delete selection)
+- Added Ctrl+Backspace (Extend selection to start of word and delete selection)
+- Fixed a minor bug in RadASM (Slow edit after large selection jump)
+2.0.0.7
+- You can now select wich pages to print.
+- Shift+Space to show word list is now an option.
+- You must now press Ctrl+Shift+Space to copy text from api tooltip. Ctrl/Shift+Space activates word list.
+- Fixed a bug with Ctrl+Space when api list has focus.
+2.0.0.8
+- Fixed an output window bug that could cause RadASM to GPF.
+- Fixed an Alt Gr key problem in RAEdit
+- Changed Alt+Ctrl accelerators to Shift+Ctrl in RadASM
+  (Alt Gr key problems on some keyboards)
+- Fixed double click on error in ouput window bug for tasm / fasm.
+- Added support for melt (Masm Error Lookup Tool)
+  Double click on error number in output will launch melt.
+  See included melt.txt for more info.
+2.0.0.8a
+- Fixed an accelerator bug (Ctrl+C / Ctrl+V).
+2.0.0.9
+- Better support for DBCS fonts (Chinese, Japanese, Korean).
+- Better support for Western and Cyrillic character sets.
+- Fixed bugs related to edit overwrite mode.
+- It is now possible to setup how RadASM handles individual characters.
+  See RadASMini.rtf Section [CharTab] for more info. Should make it possible
+  for RadASM to handle other programming languages than assembly.
+2.0.1.0
+- Fixed a bug that caused Ctrl+Z / Ctrl+Y to not work on some keyboards
+- Added option to open code files with procs collapsed.
+- Code and text font style is now saved to ini.
+- Improved word select / jump (Ctrl+<Right / Left Arrow>)functions.
+2.0.1.1
+- Fixed a bug that caused TolBox button icons to turn black on win95
+- Addins can now override RadASM's default toolbar tooltips (RAM_TBRTOOLTIP).
+- Fixed a minor codewrite macro bug.
+- Fixed a bug in RAEdit that caused character table to not always be used.
+2.0.1.2
+- Fixed bug make menu enabeling when tools menu changed
+- Fixed bug codewrite macro not always working
+- Sniplet window now processes keyboard commands (Esc, Tab & Enter)
+- Added posibility for sub menus on tools, macro and help menu.
+  See included file ConfigMenu.txt
+2.0.1.3
+- Fixed a few bugs.
+- Added Recent files to File menu.
+- Added keyboard commands to RAEdit:
+  - Ctrl+Alt+ or AltGr+
+  - Insert	Show/Hide line numbers
+  - Home	Jump between splitts
+  - End		Open/Closes splitt
+  - Page Up	Collapse all procs
+  - Page Down	Expand all procs
+  - Up / Down	Sizes splitts
+- Included enhanced version of Milos asmvars addin.
+  A must for medium / large projects. You can dblclick in output window
+  to jump to the unreferenced variable.
+2.0.1.4
+- Made changes to how Ctrl+Up / Down works in RAEdit.
+- Project scanner now uses RAEdit's character table.
+- Sniplet edit window now processes keyboard input.
+- Fixed proc properties parse and find bugs.
+- Added PthExpl++ addin.
+- Added ButtonChanger addin.
+- Added Res2Dlg addin.
+- Added BitMask addin.
+2.0.1.5
+- Added support for nested procs collapse / expand.
+- Added support for comment blocks.
+- Added support for Randall Hyde's hla.
+2.0.1.6
+- Several improvements for hla support.
+2.0.1.7
+- There are now 16 keyword groups
+- Some groups can be used for .RC files
+- Support for uppercase keywords (precede keyword with a '^').
+- New Color & KeyWord option dialog
+- New Printer Option dialog
+- Fixed a template bug (filenames in main RC file was not changed).
+- Improved support for nested procs expand/collapse.
+- Fixed a splash screen left margin problem.
+2.0.1.8
+- RadASM can now support more than 5 assemblers / hll's.
+- Several minor bugfixes.
+2.0.1.9
+- Fixed too fast selection scroll problem.
+- Fixed a bug with outdent on collapsed procs.
+- Fixed comment hiliting on include / includelib line bug.
+2.0.2.0
+- Fixed a auto horizontal scroll paint bug. (Last entered charcter was not painted)
+- You can now set the assembler without opening a project. (Project / Set Assembler)
+- Custom colors from the color dialog are now saved to ini file.
+2.0.2.1
+- More color hiliting
+  - Color group 13: Window messages and api constants 
+  - Color group 14: Api's 
+  - Color group 15: Structures 
+- If a help menu command contains .exe, then it is treated as a tools menu command.
+- Fixed a bug on tools menu (removed a space at the end of the command).
+- Fixed a bug in RAEdit (could GPF when height of edit control less than font height).
+- Fixed TASM **Warning** bug.
+- It is no longer possible to have more than one instance of a file open.
+2.0.2.2
+- Support for melt 2.0.10
+- Support for GoAsm
+- Fixed a scroll bug when DBCS font in RAEdit.
+- Fixed a Macro / Manage bug (removed path from macro filename).
+2.0.2.3
+- Fixed a bug where RadASM would GPF after saving (Untitled) file.
+- Added support for structure item code complete in hla projects.
+- Macro menu definitions moved from RadASM.ini to assembler.ini.
+- Tools menu definitions moved from RadASM.ini to assembler.ini. Defaults read from RadASM.ini.
+- Help menu definitions moved from RadASM.ini to assembler.ini. Defaults read from RadASM.ini.
+2.0.2.4
+- Fixed a bug with local procs tooltip. Also works with GoAsm.
+- Added bitRAKE's api constants.
+- WARNING: There is a bug in the CreateProject addin created by minor28.
+  The bug seem to be related to (Untitled) files and will cause RadASM to GPF.
+2.0.2.5
+- Bug in CreateProject addin fixed.
+- F1-Help files can now be defined in Assembler.ini
+- Several fixes to hla support.
+- Fixed a bug where code complete listbox could go off screen.
+2.0.2.6
+- Fixed a few bugs in RAEdit
+- Added support for enviroment variables read from assembler.ini.
+  See RadASMini.rtf section [Enviroment] for more info.
+- Made several changes to fasm.ini, hla.ini and goasm.ini
+- Added addinmessage AIM_COMMAND and AIM_COMMANDDONE to properties context menu.
+2.0.2.7
+- Option to auto open last project.
+- Assembler errors are now bookmarked and line with error is hilited.
+  From edit menu you can goto next error and clear all errors.
+  See RadASMini.rtf section [Error] for options.
+- From Format menu you can now hide selected lines.
+2.0.2.8
+- Options to set default dialog ID and controls start ID.
+- You can now Run with debug from the make menu.
+  Note: You must update the assembler.ini files to get this feature.
+- Several minor bugs fixed.
+2.0.2.9
+- Several bugs fixed in RadASM and RAEdit.
+- Added NoteTools and HexVU addins.
+- Updated BitMask, ButtonChanger and Colref addins.
+- Exported more RadASM functions/data/handles to addins.
+2.0.3.0
+- Improved huge project support.
+  - Projects loads faster.
+  - Projects code properties refreshes faster.
+- Multi file select on template creation and add existing files to project.
+- Convert tab to space and space to tab now works on whole line, not only on the indent.
+- Export ID equ's now supports both ver 1.00 and ver 1.01 dialogs. Also autosaves before exporting.
+- Non existing projects on MRU projects list is removed on startup.
+2.0.3.1
+- Added Delete project
+- Added Color themes
+- Added new info tool window.
+- Added donkeys RADToolBar addin. Lets you customize the RadASM toolbar. (Dbl click on the toolbar).
+- Made code properties more flexible. Assembler.ini section [Code] changed.
+- Made code write macros more flexible. Assembler.ini section [CodeMacro] changed.
+- Made collapseable code blocks more flexible. Assembler.ini section [CodeBlock] added.
+- Improved auto brackets. Works on both [ and ]. Auto brackets a word, left or right.
+- Several minor improvements and bug fixes.
+2.0.3.2
+- Integrated hex editor (remove HexVU addin).
+- Fixed Versioninfo bug (only partially updated the .rc file).
+- Made changes to how dialog editor saves controls to the .rc file.
+-- All controls saved as type CONTROL.
+-- Important: If changing old dialogs then listboxes might need Notify to be set to TRUE.
+- Added Notify option to several controls.
+- Added more dialog editor controls (HotKey, Pager, ReBar).
+- The dialog controls caption is updated while typing.
+- Added new styles to toolbar and statusbar controls.
+- Added more functions to info tool (dialog and hex edit).
+- Improved hla support.
+- Several minor changes / bugfixes.
+2.0.3.3
+- Updated / added AddinMana, ProjectZip, ReallyRad and Version-inc addins.
+- Added RAGrid custom control. The source code for RAGrid can be found at the website.
+- Changed add resource dialog. (Uses RAGrid).
+- Changed add stringtable dialog. (Uses RAGrid).
+- Resources (bitmaps, icons, ...) are stored in it's own file and are no longer added to main rc file.
+- Versioninfo are stored in it's own file and are no longer added to main rc file.
+- Exported update resource and stringtable calls to addins.
+- Added masm dos projects. Big thanks to Cip.
+- Added Main Project Files dialog.
+- Fixed a few bugs.
+2.0.3.4
+- A projects main filenames / build commands are now stored in the template when it is created.
+- When you create a new project using a template, build commands and main files are taken from the template.
+- Added [*PROJECTNAME*] command to template. Every occurance of this keyword is replaced with the projectname.
+- ReallyRad now checks if obj file is newer than the source when assembling modules.
+  (Works safely on single file modules only. Included files and libraries are NOT checked).
+- Improved Undo / Redo in RAEdit.
+- Added Inactive, Right aligned and Help checkboxes to menu editor.
+- Added VersionControl addin by WillASM. Combines Version-Inc and ProjectZip addins + much more.
+- Added Edit / Open (Alt+Ctrl+O) opens file with the filename under the caret.
+  Current path and include path are checked for the file.
+- Fixed several serious bugs.
+2.0.3.5
+- Fixed a menu on dialog problem.
+- Edit control can now have caption.
+- Several hla support improvements / bugfixes.
+- Fixed a few minor bugs.
+2.0.3.6
+- Added project groups and a tool to maintain groups.
+- Menu editor now uses MENUEX resource type.
+- Fixed prototype bugs.
+2.0.3.7
+- Added tool to change RadASM menu caption and accelerators.
+- Added accelerator resource.
+- Improved segment collapsing in RAEdit.
+  Assembler.ini section [CodeBlock] must be changed to take adventage of this improvement.
+- Fixed template bug where some resource files was not renamed.
+- Fixed Export ID equ's bug where some resource files was not included.
+- Fixed a bug in RAGrid that caused constant repaint on some systems.
+- Fixed a bug where modules was not assembled if in a sub folder.
+- Included e-help addin.
+2.0.3.8
+- Added Find Next Word. Finds next occurance of word under caret.
+- Improved api code complete listbox handling.
+- Implemented methods for RAD dialog proc / sub and super class handling.
+  Now all that is needed is to make the addin to actually do things.
+- Improved auto brackets.
+- Fixed autoindent bug that could cause a GPF.
+- Indent marker. Set color using Option / Colors & KeyWords / Indent marker.
+- WillASM has fixed messagebox problem in VersionControl addin.
+- Some improvements / bugfix by Milos in NoteTools addin.
+- Fixed several minor bugs.
+2.0.3.9
+- Fixed a bug where typing include or includelib could cause a GPF.
+- Fixed a dialog editor control resize bug.
+- Fixed a run command parse problen. (Did not change | to ,)
+- Fixed a "long path to templates" problem. (Could cause project wizard to GPF).
+- Fixed a GPF bug that could occur when deleting text.
+- Added Reopen File to File menu.
+- Added Empty Undo Buffer to Edit menu.
+2.0.4.0
+- Added syntax hiliting of numbers and hex values.
+- Added Explore to Project Filebrowser context menu.
+- Added multiselected controls can now be moved using keyboard.
+- Improvements to Project Filebrowser. (File delete and '\' goes up one level).
+- Bug where it was possible to attempt sending multiselected controls to back / front is fixed.
+- Bug where link command with no open project could fail is fixed.
+- Problem with long / short filenames mix solved (AsmVars).
+- Fixed some minor bugs.
+2.0.4.1
+- More flexible block collapse / expand. Optional named ending ($ endp --> ? endp).
+- Better tasm support.
+- Made changes to how auto brackets work.
+- Fixed a very bad memory leak.
+2.0.4.2
+- Complete rewrite of code properties parsing.
+- Code properties named scope ending can be made optional ($ endp ---> ? endp).
+- Code properties auto refresh (Option/Code Editor Options/Code Properties/Auto refresh list).
+- Better global structure name parsing (mystr MYSTRUCT <1,2,3>).
+- Static controls can now have verticaly centered text.
+- Improved hla support.
+- Improved fasm support (use masm api files).
+- Text drag and drop support.
+- Project / Scan Project. Scans a Project for a word. Result to output.
+- Added donkey's exception handler to FlipCase addin.
+- Added option to hilite active line.
+- Added debug path setup.
+- Made file extention handeling more flexible for those who uses RadASM to edit other sources than assembly. Hla users must modify section [Open]. See below.
+- Added include / includelib file listbox. You must update assembler.ini section [Api]
+- Project wizard now has a template selection dialog.
+- Project wizard now can have max 16 project types.
+- Make menu can now have max 16 menu items.
+- Included Donkey's DialogPreview addin.
+- Made changes to Auto Brackets ( [esi+RECT.left] ).
+- Added WebBrowser (KetilO) and Header (Donkey) custom controls.
+- Multiple (private) api files (Call=masm\masmApiCall.api,masm\masmMasm32Call.api,masm\masmMyApiFile.api).
+2.0.4.3
+- Fixed lots of bugs.
+- You can now drag and drop multiple files to open them.
+- You can now do a multiselect in File Open dialog to open multiple files.
+2.0.4.3a
+- Fixed a bug where F1 (help) would not get selected word.
+2.0.4.3b
+- Bug fixed VersionControl addin. (Thanks WillASM)
+- New GoAsm files. (Thanks Donkey)
+2.0.4.3c
+- Fixed a dual pane bug. There was a first visible line confusion.
+- Added Qweerdy's RadHelp addin.
+- You can now set default VersionControl options with addin manager.
+2.0.4.3d
+- Fixed a  bug where using Tab / Shift+Tab did not work.
+- Moved scroll pos tooltip handling to RAEdit.
+- Improved masm COM support (STDMETHOD macro in structures and OCX project type).
+  See DragDrop and AsmEvent projects.
+2.0.4.3e
+- Fixed a  bug where wrong text could be deleted from the source in a drag move operation.
+2.0.4.4
+- Added AlexMenu addin. Lets you choose office 2000 or office XP style menus.
+- Speeded up compiler messages to output window.
+- Fixed bug where setting WS_EX_MDICHILD dialog style made RadASM unstable.
+- Fixed bug where RadASM on XP sp2 would not open files from browser.
+2.1.0.0
+- Improved accelerators on option menus and menu editor.
+- Improved visual menu on dialog edit.
+- Fixed several bugs in RadASM and addins.
+2.1.0.0a
+- Fixed an Export menu ID bug.
+2.1.0.1
+- Enhanced AlexMenu and RadToolBar addins.
+- Made ButtonChanger addin obsoleted, moved to RadToolBar addin.
+- Made CompileTime addin obsoleted, moved to FlipCase addin.
+- Added AIM_UNHOOK addin message. Safe way to unhook from a subclass chain.
+- Added AIM_ADDINSLOADED addin message. Some addins needs to perform things after all addins are loaded.
+- Included Ulteriors DaemonTemplate.
+2.1.0.2
+- Added LANGUAGE settings to resources.
+- Improved support for fonts/charsets in dialog editor.
+- Improved project wizard template handling.
+- Updated hla templates, examples and RADbg.inc
+2.1.0.3
+- Added option to set dialog editor grid color.
+- Added option to set dialog editor grid as lines.
+- Added option to code properties parsing to skip lines containing certain words.
+- Added look ahead for ending of macro code properties parsing.
+- Improved the Web browser custom control. (WBDll.dll)
+- Improved the Grid custom control. (RAGrid.dll)
+2.1.0.4
+- Improved dialog editor custom control support.
+- Added header control to dialog editor.
+- Added several new control styles to dialog editor.
+- Added Radio Button and Right Order styles to menu editor.
+- Updated several addins and custom controls.
+- Fixed bugs.
+2.1.0.5
+- Added option to set tool windows font.
+- Added file browser custom control.
+- Added posibility to create unquoted file names in build commands (See RadASMini.rtf)
+- Added posibility to run batch files or 16 bit programs as build commands on win95, 98 and me (See RadASMini.rtf)
+- Fixed bug where opening dialog with menu could cause problems.
+- Fixed bug where dialog editor "Top" property did not work.
+- Updated some custom controls.
+2.1.0.5b
+- Fixed bug where creating a new project could add weird text to the end of the projects main filenames.
+2.1.0.6
+o Optional threaded build processing.
+ - Progress indicator.
+ - Build process can be terminated with Esc.
+o Support for FUNC and $invoke macros.
+ - Code complete.
+ - Parameter tooltip.
+  - masm.ini section [Api] Trig=invoke,call,func(,$invoke(
+o Fixed bug with Resource, Accelerator and String table.
+o Improved property fake combobox.
+ - Acts more like a real combo.
+o Fixed several windows / tool font size problems.
+0 New font options dialog.
+o Added option to set hex editor font.
+o Added option to set default dialog editor font.
+o Added support for local code properties. 
+ - masm.ini section {Code] Local={C},local $ 
+ - Show the code complete listbox with only proc parameters and locals using Shift+Ctrl+Space 
+o Added FONT resource type. 
+o Renaming of a projects file (treeview label edit).
+o Optional Notification if an open file is changed outside the editor.
+o Added Ellipsis property to static controls.
+2.1.0.7
+o Improved code complete listbox updating.
+ - Updates faster.
+ - Less flicker.
+o Better support for Objasm32 code properties (Methods and Objects).
+ - Objects and Methods code properties.
+ - Objects and Methods are collapseable.
+o Block / Column select editing.
+ - Cut / Copy and Paste a block / column.
+ - Fill block with typed chacter or text.
+ - Undo / Redo block operations.
+o Improved Undo / Redo.
+o Edit / Format menu rearranged.
+o Improved structure property parsing.
+ - Named unions and named structures in structure.
+o New xxxxApiStruct.api file.
+ - Parsed from the latest windows.inc in the masm32 package.
+2.1.0.7b
+o Included NSIS Script Editor addin. Created by minor28.
+ - Makes it very easy to create an installer for your application.
+o Fixed bug with menu on a dialog and the dialog or menu was not in project root.
+o Fixed a bug where double click on error in output did not work.
+o Great speed improvements on large projects code properties.
+2.1.0.8
+o Global labels parsed to code properties. 
+o Local labels added to code complete listbox (Shift+Ctrl+Space while in a proc). 
+o Option to associate files with RadASM. 
+o More icons in AlexMenu addin. 
+o Improved filetype icons on project / file browser. 
+o Fixed bug where succeeding structures without a blank line in between would not be parsed. 
+o Fixed bug where WS_EX_LAYERED could not be set. 
+o Added ANICURSOR resource type. 
+o Improved fasm support (labels, locals and fixed a few parsing bugs). 
+2.2.0.0
+o Option to set comments back color.
+o Several improvements on Find Declare (F2).
+ - Speed optimized.
+ - Finds local variables and labels.
+o Fixed some fasm parsing problems.
+o Fixed some hla parsing and code block problems.
+o Fixed a bug where the parser was a bit eager to exclude comment blocks.
+o RadASM goes MUI. Get language development pack.
+o Possible to shrink / magnify dialogs.
+o Possible to set the font used on dialogs.
+o Added option to select language / magnify.
+o Updated RadToolBar addin to support unicode.
+o Added AutoScroll property to combobox
+o Added MultiLine property to button, checkbox and radiobutton
+o Added posibility to get style bit description from RadASM.ini.
+o If the build command includes linking, RadASM attempts to delete the exe / dll
+  before any build commands are performed.
+2.2.0.1
+o Added support for C/C++ (CppParse.dll)
+o Added delete to start of line (Ctrl+Shift+BackSpace)
+o Added delete to end of line (Ctrl+Shift+Delete)
+o Fixed some code block bugs (cpp) in RAEdit
+o Fixed some comment block bugs (cpp) in RAEdit
+o Fixed some DBCS (Chinese) problems in RAEdit.
+0 Added Collapse addin. Saves collapsed blocks to project file.
+o Fixed bugs in AlexMenu addin.
+o Added masmType.api file. Improves data type parsing in masm.
+2.2.0.1b
+o Fixed a collapse bug. Some blocks would not expand.
+o Fixed a paint bug. A floating toolwindow could leave a ghost when docked.
+2.2.0.1c
+o Fixed a collapse bug. Some blocks would not expand totally.
+2.2.0.2
+o Added SourceSafe addin. Adds support for Visual Source Safe.
+o Added CreateProto addin. Creates masm prototypes.
+o Added CtrlNames addin. Lets you modify default control names and captions.
+o Added Help button to addin manager. Supports hlp, chm, htm and txt files.
+o Fixed a few bugs.
+o CreateProto, RadFavs, AlexMenu, BitMask and Colref addins are now ready for language translations.
+2.2.0.3
+o New dialog preview addin (Preview.dll).
+0 New create proto addin (CreateProtoEx.dll).
+o ReallyRad addin ready for language translation.
+o RADbg addin ready for language translation.
+o Improved intellisense.
+o Added intellisense icons.
+  - High word of the listbox itemdata is the icon index (0-15).
+o Added support for bcet basic.
+  - http://www.arargh.com/basic/index.html
+o Possible to ovverride assembler type.
+o Added CodeTemplates addin. Created by drizz.
+o Added more processor instructions hiliting. Created by drizz.
+o Fixed a bug where the resource file dialog would open last dir, not current project dir.
+o Added ^I (Tab) and ^M (Enter) to find dialog. Makes it possible to search for Tab and CR.
+o Added custom controls include files to Masm\Inc.
+o Added RadADDIN.inc to Masm\Inc. Created by drizz.
+  - Makes it possible to use invoke on RadASM addin functions.
+o Added HL and RAGraph custom controls by Faiseur.
+o Added several addins by lamer.
+2.2.0.3b
+o Fixed a bug in asciiTab addin. Would not show dialog on win95, 98 and me.
+o Fixed a potential buffer overrun bug while parsing structures.
+o Fixed a bug where RadASM would not autoload last opened project.
+2.2.0.3c
+o Fixed a bug in ReallyRad addin. Would not auto include language file.
+2.2.0.3d
+o Improved large project parsing speed.
+o Fixed bug in Preview addin. Did not work properly on some custom controls.
+o Donkey improved and fixed serious bugs in RadHelp addin.
+o Drizz made several improvements to his CodeTemplates addin.
+2.2.0.4
+o New advanced edit commands addin (AdvEdit.dll).
+o New auto correct addin (AutoCorrect.dll).
+o Added Find Previous Word command to Edit menu.
+o Added Indent, Outdent, Comment and Uncomment to toolbar.
+o Exposed lpSetTextLink and lpScanWord functions to addins.
+  - See RadASM.inc and RadADDIN.inc for more info.
+o Updated language pack.
+o Improved bcet support.
+o Added FreeBASIC support.
+  - http://www.freebasic.net/
+  - Install FreeBasic to C:\FreeBasic
+o Possible to define your own default project file groups.
+  - See RadASMini.rtf for more info.
+o Dialog editor now has a multiline edit control to enter multiline text.
+o Fixed a bug where struct codecomplete would trigger on partial text.
+o Language files moved to C:\RadASM\Language
+o Stringtable entries now 512 bytes (previous 240).
+o Fixed subclassing bugs in AutoCorrect and CodeTemplates addins.
+o Updated RAGrid custom control.
+o The dialog font characterset is now written to the rc script.
+o Fixed a buffer overrun bug in RadHelp addin.
+o In the MakeDefNoProject you can now specify $ (whole filename) or $.cpp (filename without extension)
+  - This solves a problem working with *.c or *.cpp files.
+o Added AIM_EDITKEYDOWN and AIM_EDITCHAR. You don't need to subclass RAEdit anymore. (AutoCorrect and CodeTemplate)
+o Exposed more data to addins (TabSize).
+o Exposed more handles to addins (fonts).
+o Added option to manage programming languages.
+o Added Text link manager addin by cakmak (TxtLnkMan.dll).
+o Added TabAddin by lancome. Adds code formatting functions.
+
+KetilO

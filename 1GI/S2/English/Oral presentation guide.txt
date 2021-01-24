@@ -1,0 +1,46 @@
+3.  Definition : 
+Online privacy involves the ability to control what information you reveal about yourself over the internet, and to control who could access that information.
+
+4. as technology is progressing everyday, and internet starts to become a second world for us and is being laregely used.. is it possible for us to maintain our online privacy and the security of our personal informations
+
+5.  when you connect to the internet, it's all about the data. almsot every service requires you to entrer your personal information wich makes it easy to be leaked by numerous ways, thus affecting your privacy.
+
+6. ISP : Like you probably already know, Internet Providers give us access to the Internet network. First we signup for some Internet Plan and then they provide us with connection credentials.
+When we login to our Internet Access Account, the Internet Provider logs basic information about our connection.
+Internet Providers log basic information connected to your account like:
+Your Internet IP address
+Date and time when you login or logout from your account
+
+Internet Providers can also keep information about your Traffic, like which URLs you have visited or where you are surfing : PI
+
+Internet Browsers & search engines : keep tracking of sites you visit and track your navigation & interests.
+
+Social Media : obvious
+IM : spying on text msgs.
+
+
+7. There are several ways to invade your Online privacy, take advantage of your data and make you a target for their ads. or manipulate your behaviour and idees.
+
+8.  equifax : consumer credit reporting agency
+	ebay : e-commerce business website
+	yahoo : web services provider
+	uber : y'all know what's uber
+	what's leaked : names, adress emails, credit cards data, & other persona linforamtion
+	
+	
+10. Activists conversations were leaked in order to track their movements and plans
+
+11. this scandal was the highlight topic for the news for these 2 last months, simply it's about to 87 million Facebook users data leaked to cambridge analytica wich is a company thats uses data to change audience behavior poiliically and commercially. they used the collected data to
+work on donal's trump campaign and make it successful
+
+12. this whole facebook / cambridge controversey was such a huge deal that it caused an overall loss of 100B $ of facebook in the market, mark suckerberg was even invited to testify in front of the US congress last week , where he will be going to answer congressmen and senators questions to make it clear abut what exactly happent.
+
+
+Anyone taking it without your permission is taking a valuable right, and that's not OK
+
+- Sensitive information is information or knowledge that might result in
+loss of an advantage or level of security if revealed (disclosed) to others who
+might have low or unknown trustability and/or indeterminable or hostile intentions.
+
+- Loss, misuse, modification or unauthorized access to sensitive
+information can adversely affect the privacy of an individual.

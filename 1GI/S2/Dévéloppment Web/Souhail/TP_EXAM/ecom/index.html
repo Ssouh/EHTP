@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Site E-commerce</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="node_modules/bootstrap/dist/css/bootstrap.css" />
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" >EHTP E-Commerce</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Catégories
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#aut" onclick="affichageTable(Blousons)">Blouson</a>
+                      <a class="dropdown-item" href="#aut" onclick="affichageTable(Chemises)">Chemise</a>
+                      <a class="dropdown-item" href="#aut" onclick="affichageTable(Vestons)">Veston</a>
+                    </div>
+                  </li>
+          </ul>
+        </div>
+      </nav>
+
+ <div class="">
+        <h1>BONJEUR </h1>
+        <table class="table">
+            <tr align="center">
+                <th colspan=2>GI-1 Store</th>
+            </tr>
+            <tr align="center">
+                <td colspan=2>Realisé par ==> Souhail AMGHAR <br>Encadré par ==> M.DAAIF</td>
+            </tr>
+      <a name="aut">
+          <div id="out"></div>
+      </a>
+    
+
+
+
+<!-- <div class="mobile">
+        <div class="container-fluid bb">
+            <h1>BONJEUR </h1>
+            <table class="table table-striped table-hover">
+                <tr>
+                    <th>GI-1 STORE</th>
+                </tr>
+                <tr>
+                    <td>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus modi aliquam quisquam culpa ullam minima ut cumque. Blanditiis atque quod, tenetur quisquam assumenda, amet reiciendis maxime nostrum, nobis recusandae quia!</td>
+                </tr>
+                </table>
+        </div>
+        <img class="image_mobile" src="image\"  titre="mon titre de l'image" alt="erreur d'affichage" >
+        <br><br>
+        
+        </div>
+    <div class="tablet">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="">
+                <h1>BONJEUR </h1>
+                <p>
+                <table class="table" border='5' cellpadding='8' cellspacing='10' width='100%'>
+                    <tr align="center">
+                        <th colspan=2 >GI-1</th>
+                    </tr>
+                    <tr>
+                        <td colspan=2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus modi aliquam quisquam culpa ullam minima ut cumque. Blanditiis atque quod, tenetur quisquam assumenda, amet reiciendis maxime nostrum, nobis recusandae quia!</td>
+                    </tr>
+                    <tr>
+                      <td><img align="left" class="image_tabletleft" src="C:\Users\safi-\Pictures\Wallpapers\3.png" class="float: left" alt="erreur">
+                      Lorem ipsum adipisicing elit. Quis cumqu quibusdam culpa itaque esse delectus non eum consequatur </td>
+                      <td><img align="right" class="image_tabletright" src="C:\Users\safi-\Pictures\Wallpapers\6.png" class="float: right" alt="erreur">
+                      Lorem ipsum adipisicing elit. Fugit numquam nesciunt autem ea unde perspiciatis?</td>
+                    </tr>
+                    <tr>
+                      <td><img align="left" class="image_tabletleft" src="C:\Users\safi-\Pictures\Wallpapers\4.png" class="" alt="erreur">
+                      Lorem ipsum dolor adipisicing elit. Praesentium excepturi neque dolore provident. Quas, nobis?</td>
+                      <td><img align="right" class="image_tabletright" src="C:\Users\safi-\Pictures\Wallpapers\8.png" class="" alt="erreur">
+                      Lorem ipsum dolor sit amet fugiat. Facilis molestias sit voluptates eaque.</td>
+                  </tr>
+                </table>
+              </p>
+              </div>
+        </div>
+    <div class="desktop">
+      <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="">
+            <h1>BONJEUR </h1>
+            <table class="table">
+                <tr align="center">
+                    <th colspan=2>GI-1</th>
+                </tr>
+                <tr>
+                    <td colspan=2>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus modi aliquam quisquam culpa ullam minima ut cumque. Blanditiis atque quod, tenetur quisquam assumenda, amet reiciendis maxime nostrum, nobis recusandae quia!</td>
+                </tr>
+                <tr>
+                  <td><img class="image_desktopleft" src="C:\Users\safi-\Pictures\Wallpapers\3.png" class="float: left" alt="erreur">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi id vitae dignissimos eius eligendi unde.
+                  </td>
+                  <td><img class="image_desktopright" src="C:\Users\safi-\Pictures\Wallpapers\4.png" class="" alt="erreur">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae non reprehenderit facere numquam temporibus id!
+                 </td>
+                </tr>
+                <tr>
+                  <td><img class="image_desktopleft" src="C:\Users\safi-\Pictures\Wallpapers\6.png" class="" alt="erreur">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis debitis alias corrupti voluptate optio provident!</td>
+                  <td><img class="image_desktopright" src="C:\Users\safi-\Pictures\Wallpapers\8.png" class="" alt="erreur">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita, tempore rem sint quia voluptates accusantium.</td>
+                </tr>
+              </table> 
+          </div>
+        </div>
+     -->
+
+    <script>
+
+        
+        function maketable(users){
+            var table= "<table border='4' cellpadding='8' cellspacing='3' ><br>"
+            for (i=0; i<users.length ;i++)
+            {   table+="<td><img class='' src="+users[i].photo+"alt='erreur'>"
+                table+="<h1>"+users[i].designation+"<\h1><br><p>"+users[i].prixNormal+"$   "+users[i].prixPromo+"$   "+users[i].reference+"<\p>";
+                table+="</td>"
+            }table+="</table><br>"
+            return table
+        }
+        function affichageTable(users){
+           document.querySelector('#out').innerHTML = maketable(users)
+        }
+
+    </script>
+    <!-- <script>
+        var Chemises= [{reference:"1012732NC",designation:"CHEMISE MARCO FERRERA",prixNormal:"39.98",prixPromo:"",photo:"/images/chemise/w10-1012732nc-tq.jpg"}]
+        var Vestons= [{reference:"22651-02",designation:"VESTON SPORT ORVIETO",prixNormal:"199,99",prixPromo:"99.99",photo:"/images/veston/b30-22651-02-ny.jpg"}]
+        var Blousons= [{reference:"5418285",designation:"BLOUSON POINT ZERO",prixNormal:"79",prixPromo:"59",photo:"/images/blouson/p18-5418285-bl.jpg"}]
+
+        function maketable(users){
+            var table= "<table border='4' cellpadding='8' cellspacing='3' ><br>"
+            for (i=0; i<users.length ;i++)
+            {   table+="<td><img class='' src="+users[i].photo+"alt='erreur'>"
+                table+="<h1>"+users[i].designation+"<\h1><br><p>"+users[i].prixNormal+"$   "+users[i].prixPromo+"$   "+users[i].reference+"<\p>";
+                table+="</td>"
+            }table+="</table><br>"
+            return table
+        }
+        function affichageTable(users){
+           document.querySelector('#out').innerHTML = maketable(users)
+        }
+        
+    </script> -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
